@@ -1,0 +1,11 @@
+.gradle/
+build/
+.idea/
+*.iml
+*.jsonl
+*.mcr3
+recordings/
+viewer/node_modules/
+viewer/dist/
+viewer/build/
+.env*

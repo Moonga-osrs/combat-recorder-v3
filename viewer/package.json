@@ -1,0 +1,31 @@
+{
+  "name": "moonga-combat-replay-v3",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.cjs",
+    "start": "node tools/server.cjs"
+  },
+  "dependencies": {
+    "@foxglove/wasm-bz2": "0.1.1",
+    "bzip2": "0.1.1",
+    "denque": "2.1.0",
+    "fast-memoize": "2.5.2",
+    "file-saver": "2.0.5",
+    "gl-matrix": "3.4.3",
+    "java-random": "0.4.0",
+    "js-xxhash": "2.0.0",
+    "jszip": "3.10.1",
+    "leva": "0.9.35",
+    "pako": "2.1.0",
+    "picogl": "0.17.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.14.2",
+    "threads": "1.7.0",
+    "xxhash-wasm": "1.0.2",
+    "fflate": "0.8.2",
+    "esbuild": "0.25.12"
+  }
+}
