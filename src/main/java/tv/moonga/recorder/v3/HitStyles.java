@@ -22,7 +22,7 @@ final class HitStyles {
     try (InputStream in = HitStyles.class.getResourceAsStream("/hitsplat-definitions.json")) {
       if (in == null) throw new IOException("Missing hitsplat definitions");
       return new HitStyles(
-          JsonParser.parseReader(new InputStreamReader(in, StandardCharsets.UTF_8))
+          new JsonParser().parse(new InputStreamReader(in, StandardCharsets.UTF_8))
               .getAsJsonObject());
     } catch (IOException e) {
       throw new IllegalStateException(e);
