@@ -21,8 +21,7 @@ import net.runelite.client.ui.*;
 
 @PluginDescriptor(
     name = "Combat Recorder v3",
-    description = "Record visible combat events and replay positions locally",
-    enabledByDefault = false)
+    description = "Record visible combat events and replay positions locally")
 public class CombatRecorderPlugin extends Plugin {
   @Inject private Client client;
   @Inject private net.runelite.client.game.ItemManager itemManager;

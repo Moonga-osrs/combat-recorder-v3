@@ -4,7 +4,7 @@ A standalone RuneLite plugin that records client-visible gameplay and 3D scene d
 
 ## Recorder
 
-Enable the plugin and use its sidebar to start/stop recording, change sampling FPS, or add a marker. Recording stops on logout. Copy recordings path copies the location of the plugin's `recordings` directory to your clipboard. Files are stored under RuneLite's per-plugin directory, not a launcher-specific location. Recording is off by default.
+Enable the plugin and use its sidebar to start/stop recording, change sampling FPS, or add a marker. Recording stops on logout. Copy recordings path copies the location of the plugin's `recordings` directory to your clipboard. Files are stored under RuneLite's per-plugin directory, not a launcher-specific location. The plugin is enabled on installation; recording remains off until you click Record.
 
 Captured data includes visible players/NPCs, names and appearance, positions, model poses, animation/effect/projectile changes, hitsplats/health ratios, overhead text, local inventory/equipment/prayer state, visible ground items and scene/object changes. Chatbox messages, account credentials and session tokens are not recorded. Do not publish a recording unless you intend to share its contents. Recordings may be very large and sampling can affect client performance.
 
